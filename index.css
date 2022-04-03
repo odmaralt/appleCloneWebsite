@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  pointer-events: all;
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
@@ -491,15 +490,17 @@
 .footer {
   width: 100%;
   background-color: #f5f5f7;
-  color: #6e6e73;
-  text-align: center;
+  color: #424245;
   font-size: 1em;
   padding-top: 15px;
   top: calc(520% + 5px);
   position: absolute;
 }
+.rows {
+  display: flex;
+}
 
-#footer1 {
+.footer1 {
   font-size: 12px;
   line-height: 1.33337;
   font-weight: 400;
@@ -511,16 +512,103 @@
 }
 
 .listone {
-  display: table-cell;
   list-style: none;
   text-align: left;
   vertical-align: middle;
   font-size: 12px;
-  line-height: 1.33337;
+  line-height: 2;
   font-weight: 400;
   letter-spacing: -0.01em;
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
     "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  margin-right: 20px;
-  margin-bottom: 0.8em;
+
+  margin-top: 32px;
+  flex-basis: 25%;
+  margin-left: 160px;
+}
+
+.listtwo {
+  list-style: none;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  margin-top: 32px;
+  flex-basis: 25%;
+}
+
+.listthree {
+  list-style: none;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  margin-top: 32px;
+  flex-basis: 25%;
+}
+.listfour {
+  list-style: none;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  margin-top: 32px;
+  flex-basis: 25%;
+}
+.listfive {
+  list-style: none;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  margin-top: 32px;
+  flex-basis: 25%;
+}
+
+.titlefooter {
+  color: #6e6e73;
+}
+
+#footer2 {
+  padding-left: 260px;
+}
+
+.footer3 {
+  text-align: center;
+}
+
+.footer4 {
+  display: flex;
+  font-size: 12px;
+  line-height: 1.33337;
+  word-spacing: normal;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  list-style: none;
+  color: #6e6e73;
+  padding-top: 20px;
+  padding-left: 260px;
+  margin-bottom: 45px;
 }
