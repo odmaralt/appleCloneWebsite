@@ -22,6 +22,10 @@
   position: fixed;
   width: 100%;
 }
+#top {
+  display: flex;
+  align-items: center;
+}
 .navbox {
   height: 20px;
   width: 20px;
@@ -779,7 +783,11 @@
     background-size: 100%;
   }
   #card {
-    display: none;
+    position: initial;
+    transform: none;
+    background-position: -200px 0px;
+    width: 100%;
+    display: inherit;
   }
   .pages5 {
     display: none;
