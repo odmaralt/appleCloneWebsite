@@ -678,6 +678,9 @@
   .navbar2 {
     display: none;
   }
+  .listone {
+    margin-left: 10px
+  }
   .navpadding {
     padding-right: 15px;
   }
