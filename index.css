@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+#image {
+  display: none;
+}
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(180%) blur 20px;
@@ -611,4 +614,187 @@
   padding-top: 20px;
   padding-left: 260px;
   margin-bottom: 45px;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    width: 150%;
+  }
+  .navbar {
+    font-size: 17px;
+  }
+  #top {
+    display: flex;
+    align-items: center;
+  }
+  .footer {
+    width: 150%;
+  }
+  .page4 {
+    background-position: 135px 0px;
+  }
+  .box1 {
+    padding-left: 240px;
+  }
+  .box12 {
+    padding-left: 240px;
+  }
+  .linkpg4 {
+    padding-left: 240px;
+  }
+  .pages4 {
+    width: 85%;
+    background-position: -190px 0px;
+    transform: none;
+    margin-left: 125px;
+  }
+  .pagesfive {
+
+    background-position: 135px 0px;
+  }
+  .pages5 {
+    width: 85%;
+    background-position: -190px 0px;
+    transform: none;
+    margin-left: 125px;
+  }
+  .box31 {
+    padding-left: 240px;
+  }
+  #card {
+    width: 66%;
+    background-position: -390px 0px;
+    transform: none;
+  }
+  #watch {
+    background-position: 135px 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar2 {
+    display: none;
+  }
+  .navpadding {
+    padding-right: 15px;
+  }
+  #search {
+    display: none;
+  }
+  #image {
+    display: inline-block;
+    height: 18px;
+    padding-top: 12px;
+    padding-left: 15px;
+  }
+  .menu {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #apple {
+    height: 19px;
+    width: 19px;
+  }
+  .navbar {
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  .pages4 {
+    margin-left: 0px;
+    background-position: -385px;
+    margin-top: 10%;
+    display: none;
+  }
+  .pages5 {
+    margin-left: 0px;
+  }
+  .pagesfive {
+    position: initial;
+    margin-bottom: 0px;
+    transform: none;
+    background-position: -200px 0px;
+    width: 100%;
+  }
+  .page4 {
+    position: initial;
+    background-position: -200px 0px;
+    float: none;
+    width: 100%;
+    transform: none;
+  }
+
+  .pagefour {
+    background-position: center;
+  }
+  #us {
+    display: none;
+  }
+  .footer4 {
+    padding-left: 5px;
+  }
+  #watch {
+    position: initial;
+    transform: none;
+    background-position: -200px 0px;
+    width: 100%;
+  }
+  .footer {
+    width: 150%;
+  }
+  #navlogo {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  #navlink {
+    display: block;
+    text-align: center;
+  }
+  #top {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+  }
+  .navtop {
+    padding: 0px;
+  }
+  #navhead {
+    font-size: 36px;
+  }
+  #navsubhead {
+    font-size: 19px;
+  }
+  body {
+    min-width: 150%;
+  }
+  .head {
+    background-size: 95%;
+  }
+  #secondpage2 {
+    font-size: 36px;
+  }
+  #secondpage3 {
+    font-size: 19px;
+  }
+  .navpage2 {
+    background-size: 100%;
+  }
+  #card {
+    display: none;
+  }
+  .pages5 {
+    display: none;
+  }
+  .box12 
+  {
+    display: none;
+  }
+  .box3 {
+    display: none;
+  }
+  .linkpg4 {
+    display: none;
+  }
+  .box1 {
+    padding-left: 0px;
+  }
 }
